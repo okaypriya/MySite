@@ -1,0 +1,120 @@
+body{
+  color: #40514E;
+  margin:0;
+  text-align:center;
+  font-family: 'Merriweather', serif
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color:  #66BFBF;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:  #66BFBF;
+  padding: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{
+  color: #Eaf6f6;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border: dotted 6px #Eaf6f6;
+  border-bottom:none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+.prog{
+  font-weight: normal;
+}
+.intro{
+  width:30%;
+  margin: auto;
+}
+.pp{
+  height: 200px;
+  width: 200px;
+}
+.webdev{
+  width: 25%;
+  float: left;
+  margin: 0 30px 0 auto;
+}
+.dnc{
+  width: 25%;
+  float: right;
+  margin: 0 auto 0 30px;
+}
+.top{
+  background-color: #E4F9F5;
+  margin-top: 0;
+  position: relative;
+  padding: 100px;
+}
+.bottom{
+  background-color: #66BFBF;
+  padding:50px 0 20px 0;
+}
+
+.topcloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.bottomcloud{
+  position: absolute;
+  left:250px;
+  bottom: 300px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.profile{
+  margin:100px auto 0 auto;
+}
+.contact-mssg{
+  margin: 40px auto 60px auto;
+  width: 40%;
+}
+.btn {    background-color: #66BFBF;
+          color: white;
+          font-weight: bold;
+          font-family: 'Montserrat',sans-serif;
+          text-decoration: none;
+          margin: 3rem;
+          padding: 0.8rem 2.5rem;
+          border-radius: 1rem;
+          display: inline-block;
+}
+.btn:hover{
+  background-color: #22b3b3;
+}
+.btn:active {
+  background-color: #22b3b3;
+  box-shadow: 0 5px #047878;
+  transform: translateY(4px);
+}
+.copyright{
+  color: #Eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0 20px 0;
+}
